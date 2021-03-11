@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Image" max_length="40" name="x_snc_product_db_image" type="collection">
+        <element label="Image" max_length="40" name="image" type="user_image"/>
+        <element label="Item" max_length="32" name="item" reference="x_snc_product_db_item" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Size" max_length="40" name="size" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Small" sequence="10" value="small"/>
+                <element inactive_on_update="false" label="Medium" sequence="20" value="medium"/>
+                <element inactive_on_update="false" label="Big" sequence="30" value="big"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="item"/>
+        </index>
+    </element>
+</database>

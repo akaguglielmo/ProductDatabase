@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Brand" max_length="40" name="x_snc_product_db_brand" type="collection">
+        <element label="Description" max_length="4000" name="description" type="string"/>
+        <element label="Logo" max_length="40" name="logo" type="user_image"/>
+        <element display="true" label="Name" max_length="100" name="name" type="string"/>
+        <element label="Vendor" max_length="32" name="vendor" reference="core_company" type="reference"/>
+        <index name="index">
+            <element name="vendor"/>
+        </index>
+    </element>
+</database>

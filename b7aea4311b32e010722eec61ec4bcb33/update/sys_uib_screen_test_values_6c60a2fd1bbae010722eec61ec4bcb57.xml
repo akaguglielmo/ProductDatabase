@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+  "listTable" : "incident",
+  "table" : "problem"
+}</macroponent_config>
+        <screen display_value="Home default">b28e1ab91bbae010722eec61ec4bcb7d</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-10 18:23:32</sys_created_on>
+        <sys_id>6c60a2fd1bbae010722eec61ec4bcb57</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Product DataBase" source="x_snc_product_db">b7aea4311b32e010722eec61ec4bcb33</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Product DataBase">b7aea4311b32e010722eec61ec4bcb33</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_6c60a2fd1bbae010722eec61ec4bcb57</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-10 21:34:00</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-10 13:39:00</sys_created_on>
+        <sys_id>b44f51711b76e010722eec61ec4bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_product_db_image.x_snc_product_db.image_user</sys_name>
+        <sys_package display_value="Product DataBase" source="x_snc_product_db">b7aea4311b32e010722eec61ec4bcb33</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Product DataBase">b7aea4311b32e010722eec61ec4bcb33</sys_scope>
+        <sys_security_acl display_value="x_snc_product_db_image">b44f11711b76e010722eec61ec4bcbbe</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_b44f51711b76e010722eec61ec4bcb1a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-10 13:39:00</sys_updated_on>
+        <sys_user_role display_value="x_snc_product_db.image_user" name="x_snc_product_db.image_user">dc4f9d311b76e010722eec61ec4bcb14</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

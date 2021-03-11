@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list">
+    <sys_ux_list action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Food">a7bfd2bd1bbae010722eec61ec4bcb12</category>
+        <columns>barcode,department,brand,description,label,price,out_of_stock,unit_text,unit_value</columns>
+        <condition/>
+        <configuration display_value="Product Database">089f5e7d1bbae010722eec61ec4bcbad</configuration>
+        <groups/>
+        <list_attributes/>
+        <order>10</order>
+        <roles/>
+        <sys_class_name>sys_ux_list</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-10 18:23:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>64ff1abd1bbae010722eec61ec4bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Product DataBase" source="x_snc_product_db">b7aea4311b32e010722eec61ec4bcb33</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Product DataBase">b7aea4311b32e010722eec61ec4bcb33</sys_scope>
+        <sys_update_name>sys_ux_list_64ff1abd1bbae010722eec61ec4bcb24</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-10 18:23:10</sys_updated_on>
+        <table>x_snc_product_db_food</table>
+        <title>All</title>
+    </sys_ux_list>
+</record_update>

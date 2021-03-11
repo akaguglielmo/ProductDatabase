@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Dairy" language="en" table="x_snc_product_db_dairy">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Dairy</label>
+            <language>en</language>
+            <name>x_snc_product_db_dairy</name>
+            <plural>Dairies</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-10 15:04:48</sys_created_on>
+            <sys_id>f5e27d3d1bb6e010722eec61ec4bcbc1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Dairy</sys_name>
+            <sys_package display_value="Product DataBase" source="x_snc_product_db">b7aea4311b32e010722eec61ec4bcb33</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Product DataBase">b7aea4311b32e010722eec61ec4bcb33</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_product_db_dairy__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-10 15:04:48</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

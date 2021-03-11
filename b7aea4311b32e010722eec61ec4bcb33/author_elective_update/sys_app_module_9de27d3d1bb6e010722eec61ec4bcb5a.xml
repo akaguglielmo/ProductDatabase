@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Product DataBase">ca70f0351b32e010722eec61ec4bcbc4</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Dairies</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_snc_product_db_dairy</name>
+        <order>2000</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_snc_product_db.dairy_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-10 15:04:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9de27d3d1bb6e010722eec61ec4bcb5a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Dairies</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Product DataBase" source="x_snc_product_db">b7aea4311b32e010722eec61ec4bcb33</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Product DataBase">b7aea4311b32e010722eec61ec4bcb33</sys_scope>
+        <sys_update_name>sys_app_module_9de27d3d1bb6e010722eec61ec4bcb5a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-10 17:20:42</sys_updated_on>
+        <timeline_page/>
+        <title>Dairies</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Product DataBase">b7aea4311b32e010722eec61ec4bcb33</application>
+        <file_path/>
+        <instance_id>2142aabddb4488d0b847ac44d49619f7</instance_id>
+        <instance_name>retaildemo</instance_name>
+        <name>sys_app_module_9de27d3d1bb6e010722eec61ec4bcb5a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Product DataBase">ca70f0351b32e010722eec61ec4bcbc4</application><assessment/><content_page/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Dairies</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_snc_product_db_dairy</name><order>2000</order><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_snc_product_db.dairy_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-03-10 15:04:47</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9de27d3d1bb6e010722eec61ec4bcb5a</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Dairies</sys_name><sys_overrides/><sys_package display_value="Product DataBase" source="x_snc_product_db">b7aea4311b32e010722eec61ec4bcb33</sys_package><sys_policy/><sys_scope display_value="Product DataBase">b7aea4311b32e010722eec61ec4bcb33</sys_scope><sys_update_name>sys_app_module_9de27d3d1bb6e010722eec61ec4bcb5a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-03-10 17:20:42</sys_updated_on><timeline_page/><title>Dairies</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1594249394</payload_hash>
+        <record_name>Dairies</record_name>
+        <reverted_from/>
+        <source>7baea4311b32e010722eec61ec4bcb38</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-10 17:20:42</sys_created_on>
+        <sys_id>d4025ab51b7ae010722eec61ec4bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1781d27ab5f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-10 17:20:42</sys_updated_on>
+        <type>Module</type>
+        <update_guid>1c0296b51d7ae010598495c093e2e807</update_guid>
+        <update_guid_history>1c0296b51d7ae010598495c093e2e807:-1594249394,19e27d3d60b6e0106078680c9f71c55c:-99948884</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Dairies">7a7216f51b7ae010722eec61ec4bcb08</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-10 17:22:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>16eb4a9976d94b909d107ad38b728744</sys_id>
+        <sys_metadata>9de27d3d1bb6e010722eec61ec4bcb5a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dairies</sys_name>
+        <sys_package display_value="Product DataBase" source="x_snc_product_db">b7aea4311b32e010722eec61ec4bcb33</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Product DataBase">b7aea4311b32e010722eec61ec4bcb33</sys_scope>
+        <sys_scope_delete display_value="">58e3f45ea64d4e63b9abee91fba1a329</sys_scope_delete>
+        <sys_update_name>sys_app_module_9de27d3d1bb6e010722eec61ec4bcb5a</sys_update_name>
+        <sys_update_version display_value="sys_app_module_9de27d3d1bb6e010722eec61ec4bcb5a">d4025ab51b7ae010722eec61ec4bcbd2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-10 17:22:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

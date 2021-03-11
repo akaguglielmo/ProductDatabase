@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="x_snc_product_db_personal_care" label="Skin care" max_length="40" name="x_snc_product_db_skin_care" type="collection"/>
+</database>

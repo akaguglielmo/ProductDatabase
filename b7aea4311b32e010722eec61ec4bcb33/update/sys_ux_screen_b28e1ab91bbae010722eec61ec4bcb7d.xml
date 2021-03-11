@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Retail">7a945a791b7ae010722eec61ec4bcb16</app_config>
+        <description/>
+        <event_mappings>[ {
+  "eventMappingId" : "ckmddthhqjjbaaaaggdddhiiiinleiyqffj",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_snc_product_db.NAV_ITEM_SELECTED_RELAY_328e1ab91bbae010722eec61ec4bcb4e",
+  "sourceEventDefinition" : {
+    "apiName" : "x_snc_product_db.NAV_ITEM_SELECTED_RELAY_328e1ab91bbae010722eec61ec4bcb4e",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_canvas_core.NAV_ITEM_SELECTED",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "route" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "route" ]
+            }
+          },
+          "fields" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "fields" ]
+            }
+          },
+          "params" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "params" ]
+            }
+          },
+          "redirect" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "redirect" ]
+            }
+          },
+          "passiveNavigation" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "passiveNavigation" ]
+            }
+          },
+          "title" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "title" ]
+            }
+          },
+          "multiInstField" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "multiInstField" ]
+            }
+          },
+          "targetRoute" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "targetRoute" ]
+            }
+          },
+          "external" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "external" ]
+            }
+          }
+        }
+      },
+      "sysId" : "8b82bf18e5276c8e423b6e4e0889b463"
+    },
+    "operation" : null,
+    "targetId" : "ckmddthhqjjaaaaaggcddhiiiivhholyieep",
+    "type" : "EVENT"
+  } ]
+}, {
+  "eventMappingId" : "ckmddsrccggpaaaaeeffddhiiiihhqpeeayjjii",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_snc_product_db.SESSION_REFRESH_RELAY_328e1ab91bbae010722eec61ec4bcb4e",
+  "sourceEventDefinition" : {
+    "apiName" : "x_snc_product_db.SESSION_REFRESH_RELAY_328e1ab91bbae010722eec61ec4bcb4e",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : null,
+    "operation" : {
+      "dataBrokerId" : "d59c47c8c3271010ebed34897940dd6c",
+      "operationName" : "REFRESH",
+      "parentResourceId" : "session",
+      "payload" : {
+        "type" : "JSON_LITERAL",
+        "value" : { }
+      }
+    },
+    "targetId" : "ckmddsrccggpaaaaeeeeddhiiiibiiiiajvie",
+    "type" : "DATABROKER_OP"
+  } ]
+}, {
+  "eventMappingId" : "ckmddsrccdddaaaaeeddddhiiiibmetqeebl",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_snc_product_db.SESSIONGQL_REFRESH_RELAY_328e1ab91bbae010722eec61ec4bcb4e",
+  "sourceEventDefinition" : {
+    "apiName" : "x_snc_product_db.SESSIONGQL_REFRESH_RELAY_328e1ab91bbae010722eec61ec4bcb4e",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : null,
+    "operation" : {
+      "dataBrokerId" : "b9bac388c3271010ebed34897940ddd8",
+      "operationName" : "REFRESH",
+      "parentResourceId" : "sessionGQL",
+      "payload" : {
+        "type" : "JSON_LITERAL",
+        "value" : { }
+      }
+    },
+    "targetId" : "ckmddsrccdddaaaaeeccddhiiiibbbbybbeejnk",
+    "type" : "DATABROKER_OP"
+  } ]
+}, {
+  "eventMappingId" : "ckmddsrbbrkaaaaeebbddhiiiitnseethhjs",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_snc_product_db.DYNAMIC_ROUTING_REFRESH_RELAY_328e1ab91bbae010722eec61ec4bcb4e",
+  "sourceEventDefinition" : {
+    "apiName" : "x_snc_product_db.DYNAMIC_ROUTING_REFRESH_RELAY_328e1ab91bbae010722eec61ec4bcb4e",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : null,
+    "operation" : {
+      "dataBrokerId" : "367f89e30b102010a8b1c96237673a85",
+      "operationName" : "REFRESH",
+      "parentResourceId" : "dynamic_routing",
+      "payload" : {
+        "type" : "JSON_LITERAL",
+        "value" : { }
+      }
+    },
+    "targetId" : "ckmddsrbbrkaaaaeeaaddhiiiisjxpzdcg",
+    "type" : "DATABROKER_OP"
+  } ]
+}, {
+  "eventMappingId" : "ckmddshhffxffaaaabbzddhiiiikfddzyjjm",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_snc_product_db.UXR_APP_SHELL_DATA_SOURCE_1_REFRESH_RELAY_328e1ab91bbae010722eec61ec4bcb4e",
+  "sourceEventDefinition" : {
+    "apiName" : "x_snc_product_db.UXR_APP_SHELL_DATA_SOURCE_1_REFRESH_RELAY_328e1ab91bbae010722eec61ec4bcb4e",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : null,
+    "operation" : {
+      "dataBrokerId" : "eaa5861c530210105a20ddeeff7b12fd",
+      "operationName" : "REFRESH",
+      "parentResourceId" : "uxr_app_shell_data_source_1",
+      "payload" : {
+        "type" : "JSON_LITERAL",
+        "value" : { }
+      }
+    },
+    "targetId" : "ckmddshhffxeeaaaabbyddhiiiimffggvxhaas",
+    "type" : "DATABROKER_OP"
+  } ]
+} ]</event_mappings>
+        <macroponent display_value="Home">328e1ab91bbae010722eec61ec4bcb4e</macroponent>
+        <macroponent_config>{
+  "listTable" : "",
+  "table" : "",
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "y",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false
+}</macroponent_config>
+        <name>Home default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[]</required_translations>
+        <screen_condition/>
+        <screen_type display_value="Home">e28ed2b91bbae010722eec61ec4bcbb3</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-10 18:15:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>b28e1ab91bbae010722eec61ec4bcb7d</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Home default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Product DataBase" source="x_snc_product_db">b7aea4311b32e010722eec61ec4bcb33</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Product DataBase">b7aea4311b32e010722eec61ec4bcb33</sys_scope>
+        <sys_update_name>sys_ux_screen_b28e1ab91bbae010722eec61ec4bcb7d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-10 19:02:41</sys_updated_on>
+    </sys_ux_screen>
+</record_update>

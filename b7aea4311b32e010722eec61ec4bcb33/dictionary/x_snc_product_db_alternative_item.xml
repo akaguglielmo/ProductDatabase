@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Alternative Item" max_length="40" name="x_snc_product_db_alternative_item" type="collection">
+        <element display="true" label="Alternative Item" max_length="32" name="alternative_item" reference="x_snc_product_db_item" type="reference"/>
+        <element label="Original Item" max_length="32" name="original_item" reference="x_snc_product_db_item" type="reference"/>
+        <index name="index">
+            <element name="alternative_item"/>
+        </index>
+        <index name="index2">
+            <element name="original_item"/>
+        </index>
+    </element>
+</database>

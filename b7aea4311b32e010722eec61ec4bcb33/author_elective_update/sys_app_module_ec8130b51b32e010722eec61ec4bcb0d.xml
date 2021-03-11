@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Product DataBase">ca70f0351b32e010722eec61ec4bcbc4</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Brands</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_snc_product_db_brand</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_snc_product_db.brand_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-10 10:19:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ec8130b51b32e010722eec61ec4bcb0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Brands</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Product DataBase" source="x_snc_product_db">b7aea4311b32e010722eec61ec4bcb33</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Product DataBase">b7aea4311b32e010722eec61ec4bcb33</sys_scope>
+        <sys_update_name>sys_app_module_ec8130b51b32e010722eec61ec4bcb0d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-10 10:19:06</sys_updated_on>
+        <timeline_page/>
+        <title>Brands</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Product DataBase">b7aea4311b32e010722eec61ec4bcb33</application>
+        <file_path/>
+        <instance_id>2142aabddb4488d0b847ac44d49619f7</instance_id>
+        <instance_name>retaildemo</instance_name>
+        <name>sys_app_module_ec8130b51b32e010722eec61ec4bcb0d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Product DataBase">ca70f0351b32e010722eec61ec4bcbc4</application><assessment/><content_page/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Brands</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_snc_product_db_brand</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_snc_product_db.brand_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-03-10 10:19:06</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ec8130b51b32e010722eec61ec4bcb0d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Brands</sys_name><sys_overrides/><sys_package display_value="Product DataBase" source="x_snc_product_db">b7aea4311b32e010722eec61ec4bcb33</sys_package><sys_policy/><sys_scope display_value="Product DataBase">b7aea4311b32e010722eec61ec4bcb33</sys_scope><sys_update_name>sys_app_module_ec8130b51b32e010722eec61ec4bcb0d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-03-10 10:19:06</sys_updated_on><timeline_page/><title>Brands</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-500821541</payload_hash>
+        <record_name>Brands</record_name>
+        <reverted_from/>
+        <source>7baea4311b32e010722eec61ec4bcb38</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-10 10:19:06</sys_created_on>
+        <sys_id>288130b51b32e010722eec61ec4bcb10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1781ba5b0c70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-10 10:19:06</sys_updated_on>
+        <type>Module</type>
+        <update_guid>208130b5f232e01079444ef3804a1f10</update_guid>
+        <update_guid_history>208130b5f232e01079444ef3804a1f10:-500821541</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Brands">fa36bcf91b32e010722eec61ec4bcbb0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-10 10:39:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>81636a2997254369b9ea4ee661acf651</sys_id>
+        <sys_metadata>ec8130b51b32e010722eec61ec4bcb0d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Brands</sys_name>
+        <sys_package display_value="Product DataBase" source="x_snc_product_db">b7aea4311b32e010722eec61ec4bcb33</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Product DataBase">b7aea4311b32e010722eec61ec4bcb33</sys_scope>
+        <sys_scope_delete display_value="">58e3f45ea64d4e63b9abee91fba1a329</sys_scope_delete>
+        <sys_update_name>sys_app_module_ec8130b51b32e010722eec61ec4bcb0d</sys_update_name>
+        <sys_update_version display_value="sys_app_module_ec8130b51b32e010722eec61ec4bcb0d">288130b51b32e010722eec61ec4bcb10</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-10 10:39:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

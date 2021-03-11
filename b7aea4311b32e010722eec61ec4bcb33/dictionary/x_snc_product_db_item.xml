@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Item" max_length="40" name="x_snc_product_db_item" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Barcode" max_length="400" name="barcode" type="string"/>
+        <element label="Brand" max_length="32" name="brand" reference="x_snc_product_db_brand" type="reference"/>
+        <element label="Department" max_length="32" name="department" reference="x_snc_product_db_department" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Description" max_length="4000" name="description" type="string"/>
+        <element label="Discounted Price" max_length="15" name="discounted_price" type="decimal"/>
+        <element label="HTML Description" max_length="65536" name="html_description" type="html"/>
+        <element attributes="edge_encryption_enabled=true" label="Label" max_length="100" name="label" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Out of stock" max_length="40" name="out_of_stock" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Parent" max_length="40" name="parent" reference="x_snc_product_db_item" type="reference"/>
+        <element label="Price" max_length="38" name="price" type="decimal"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Unit Text" max_length="40" name="unit_text" type="string"/>
+        <element label="Unit Value" max_length="40" name="unit_value" type="integer"/>
+        <index name="index">
+            <element name="department"/>
+        </index>
+        <index name="index2">
+            <element name="brand"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

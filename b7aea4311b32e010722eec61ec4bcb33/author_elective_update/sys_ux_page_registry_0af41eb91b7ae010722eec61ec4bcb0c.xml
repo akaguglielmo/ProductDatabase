@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>7a945a791b7ae010722eec61ec4bcb16</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page display_value="UI Builder">399fcc0077733300cf3a4a2a6910611b</page>
+        <path>retail</path>
+        <root_macroponent/>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-10 17:33:58</sys_created_on>
+        <sys_id>0af41eb91b7ae010722eec61ec4bcb0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Retail</sys_name>
+        <sys_package display_value="Product DataBase" source="x_snc_product_db">b7aea4311b32e010722eec61ec4bcb33</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Product DataBase">b7aea4311b32e010722eec61ec4bcb33</sys_scope>
+        <sys_update_name>sys_ux_page_registry_0af41eb91b7ae010722eec61ec4bcb0c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-10 17:33:58</sys_updated_on>
+        <title>Retail</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Product DataBase">b7aea4311b32e010722eec61ec4bcb33</application>
+        <file_path/>
+        <instance_id>2142aabddb4488d0b847ac44d49619f7</instance_id>
+        <instance_name>retaildemo</instance_name>
+        <name>sys_ux_page_registry_0af41eb91b7ae010722eec61ec4bcb0c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>7a945a791b7ae010722eec61ec4bcb16</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes/><page display_value="UI Builder">399fcc0077733300cf3a4a2a6910611b</page><path>retail</path><root_macroponent/><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-03-10 17:33:58</sys_created_on><sys_id>0af41eb91b7ae010722eec61ec4bcb0c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Retail</sys_name><sys_package display_value="Product DataBase" source="x_snc_product_db">b7aea4311b32e010722eec61ec4bcb33</sys_package><sys_policy/><sys_scope display_value="Product DataBase">b7aea4311b32e010722eec61ec4bcb33</sys_scope><sys_update_name>sys_ux_page_registry_0af41eb91b7ae010722eec61ec4bcb0c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-03-10 17:33:58</sys_updated_on><title>Retail</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>-1187469867</payload_hash>
+        <record_name>Retail</record_name>
+        <reverted_from/>
+        <source>7baea4311b32e010722eec61ec4bcb38</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-10 17:33:58</sys_created_on>
+        <sys_id>fa051eb91b7ae010722eec61ec4bcb21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1781d33d2e20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-10 17:33:58</sys_updated_on>
+        <type>UX Page Registry</type>
+        <update_guid>f2051eb9bc7ae0105f42bebb831f3121</update_guid>
+        <update_guid_history>f2051eb9bc7ae0105f42bebb831f3121:-1187469867</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-10 17:34:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>4ea7e029fd884bceb7cc643c0c271021</sys_id>
+        <sys_metadata>0af41eb91b7ae010722eec61ec4bcb0c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Retail</sys_name>
+        <sys_package display_value="Product DataBase" source="x_snc_product_db">b7aea4311b32e010722eec61ec4bcb33</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Product DataBase">b7aea4311b32e010722eec61ec4bcb33</sys_scope>
+        <sys_scope_delete display_value="">58e3f45ea64d4e63b9abee91fba1a329</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_0af41eb91b7ae010722eec61ec4bcb0c</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_0af41eb91b7ae010722eec61ec4bcb0c">fa051eb91b7ae010722eec61ec4bcb21</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-10 17:34:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
